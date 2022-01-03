@@ -1,0 +1,42 @@
+.each-fade {
+  display: flex;
+  width: 100%;
+  margin-top: 40px !important;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+}
+
+.each-fade > div {
+  width: 100%;
+}
+.spacer {
+  flex: 1;
+}
+
+.each-fade > div img {
+  width: 680px;
+  height: 70% !important;
+  object-fit: contain;
+  margin-left: 24%;
+  margin-right: 0px;
+  margin-top: 550px;
+  zoom: 0.8;
+}
+.slide-container {
+  position: relative;
+  height: 130vh;
+  width: 100%;
+}
+.slide-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(./images/background.jpg);
+  opacity: 0.5;
+  background-repeat: no-repeat;
+}

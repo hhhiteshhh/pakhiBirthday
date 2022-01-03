@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo > a {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-decoration: none;
+}
+.unicorn__logo {
+  width: 120px;
+  height: 130px;
+}
+.navbar__logo__title {
+  font-size: 30px;
+  color: #4296cb;
+  font-family: Pacifico;
+}
+
+.nav__option {
+  font-size: 25px;
+  font-family: Comfortaa;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.nav__option > a {
+  padding: 20px;
+  text-decoration: none;
+  color:#4296cb;
+}
+.nav__option > a:hover{
+    text-decoration: underline;
+
+}
+.nav__option__home{
+    color: red !important;
+}
+@media (max-width: 980px) {
+  .nav__option {
+    display: none;
+  }
+}

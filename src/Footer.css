@@ -1,0 +1,77 @@
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: url(./images/star.png);
+  opacity: 0.3;
+}
+.footer__1 {
+  text-align: center;
+  font-family: Chelsea Market;
+  color: #1112ff;
+  font-size: 60px;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.footer__2__image {
+  width: 270px;
+}
+.footer__3 {
+  border-radius: 60px !important;
+  background-color: #f7005a !important;
+  font-weight: 500 !important;
+  text-transform: inherit !important;
+  color: white !important;
+  font-size: 40px;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  cursor: pointer !important;
+  font-family: Comfortaa;
+}
+.footer__4 {
+  text-align: center;
+  font-family: Chelsea Market;
+  color: #1e73be;
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    zoom: 0.5 !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    zoom: 0.88;
+  }
+}
+@media (max-width: 700px) {
+  .footer {
+    zoom: 0.7;
+  }
+}
